@@ -8,11 +8,14 @@ body,
 input,
 button {
     font-family: 'Open Sans', sans-serif;
+    background-color: #F5E9CF;
+    border: 0px;
 }
 
 input,
 button {
     font-size: 16px;
+    background-color: #FFFBF5;
 }
 
 .head_bar {
@@ -20,7 +23,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: #89375F;
     color: white;
 }
 
@@ -36,13 +39,14 @@ main {
     display: flex;
     flex-direction: column;
     padding: 16px;
-    border: 1px solid black;
+    border: 0px;
     border-radius: 10px;
+    background-color: #F7EFE5;
 }
 
 .input_section>h2 {
     text-align: center;
-    color: cornflowerblue;
+    color: #CE5959;
 }
 
 .input_section>form>.input {
@@ -50,7 +54,7 @@ main {
 }
 
 .input_section>form>button {
-    background-color: cornflowerblue;
+    background-color: #B04759;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -69,11 +73,12 @@ main {
     width: 100%;
     padding: 8px;
     border-radius: 5px;
+    border: 0px;
 }
 
 
 .input_section>form>.input>label {
-    color: cornflowerblue;
+    color: #A84448;
     font-weight: bold;
 }
 
@@ -84,7 +89,7 @@ main {
 }
 
 .input_section>form>.input_inline>label {
-    color: cornflowerblue;
+    color: #E96479;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -95,12 +100,13 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 16px;
-    border: 1px solid black;
+    border: 0px;
     border-radius: 10px;
+    background-color: #F7EFE5;
 }
 
 .search_section>h2 {
-    color: cornflowerblue;
+    color: #A84448;
 }
 
 .search_section>form {
@@ -112,6 +118,7 @@ main {
 }
 
 .search_section>form>label {
+    color: #A84448;
     display: flex;
     align-items: center;
 }
@@ -122,7 +129,7 @@ main {
 }
 
 .search_section>form>button {
-    background-color: cornflowerblue;
+    background-color: #E76161;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -131,13 +138,14 @@ main {
 
 .book_shelf {
     margin: 16px 0 0 0;
-    border: 1px solid black;
     padding: 16px;
+    border: 0px;
     border-radius: 10px;
+    background-color: #F7EFE5;
 }
 
 .book_shelf>h2 {
-    color: cornflowerblue;
+    color: #A84448;
 }
 
 .book_shelf>.book_list {
@@ -146,7 +154,8 @@ main {
 
 .book_shelf>.book_list>.book_item {
     padding: 8px 16px 16px 16px;
-    border: 1px solid black;
+    border: 0px;
+    background-color: #FFFBF5;
     border-radius: 5px;
     margin: 10px 0;
 }
